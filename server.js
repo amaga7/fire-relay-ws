@@ -9,7 +9,7 @@ import { WebSocketServer } from "ws";
 import { parse } from "url";
 
 const PORT = process.env.PORT || 8765;
-const RELAY_KEY = process.env.RELAY_KEY || "segreto123"; // lascia vuoto se vuoi disattivare l'auth
+const RELAY_KEY = "segreto123"; // lascia vuoto se vuoi disattivare l'auth
 
 const app = express();
 const server = http.createServer(app);
