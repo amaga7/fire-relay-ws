@@ -121,5 +121,6 @@ setInterval(() => {
 
 server.listen(PORT, () => {
   console.log(`✅ Relay in ascolto su :${PORT}`);
-  if (RELAY_KEY) console.log("🔐 Auth attiva: query ?key=RELAY_KEY richiesta");
+  if (RELAY_KEY) console.log(`🔐 Auth attiva: query ?key=${RELAY_KEY} richiesta`);
+
 });
