@@ -1,0 +1,13 @@
+{
+  "name": "fire-relay-ws",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Semplice relay WebSocket per flussi immagine (YOLO annotated) con canali multi-camera",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
